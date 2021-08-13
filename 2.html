@@ -3,22 +3,64 @@
 <head>
   <title> 맛집탐방기 </title>
   <meta charset="utf-8">
+  <style>
+  body{
+    margin:0;
+  }
+  #now {
+    color:red;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:40px;
+    text-align: center;
+    border-bottom:2px solid black;
+    margin:0;
+    padding:20px;
+  }
+  ol {
+    border-right:2px solid black;
+    width:120px;
+    margin:0;
+    padding:20px;
+    padding-right:2px;
+    padding-left:15px;
+  }
+  #grid {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  div {
+    padding-left:10px;
+  }
+  #lol {
+    padding:10px;
+    width:600px;
+  }
+  </style>
 </head>
 
 <body>
   <h1><a href="index.html">우리의 역대 음식점 Top3</a></h1>
+<div id="grid">
   <ol>
-    <li> <u><a href="1.html">첫번째 음식점</a></u></li>
-    <li> <u><a href="2.html">두번째 음식점</a></u></li>
-    <li> <u><a href="3.html">세번째 음식점</a></u></li>
+    <li> <a href="1.html">첫번째 음식점</a></li>
+    <li> <a href="2.html" id="now">두번째 음식점</a></li>
+    <li> <a href="3.html">세번째 음식점</a></li>
   </ol>
-  <hr>
-  <h2>두번째 음식점</h2>
-  <h3>브리서리 서교(망원동)</h3>
-  <strong>100일 기념으루 갔던 뤠수토뢍!! 분위기도 쩔고 스테이크도 맛나고 진짜 몇안되는 가성비 맛집!!!(소개팅 or 데이트 코스로 추천ㅋ)</strong>
+<div>
+  <h2>2. 브리서리 서교(망원동)</h2>
+<div id="lol">
+  <strong>**100일 기념으루 갔던 뤠수토뢍!! 분위기도 쩔고 스테이크도 맛나고 진짜 몇안되는 가성비 맛집!!!(소개팅 or 데이트 코스로 추천ㅋ)**</strong>
   <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/n4iaZp3QrwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
+</div>
+</div>
+</div>
   <p>
     <div id="disqus_thread"></div>
     <script>
